@@ -1,0 +1,1040 @@
+2024-06-03 08:36:30.795 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 3924 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 08:36:30.808 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 08:36:31.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 08:36:31.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 08:36:31.937 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-06-03 08:36:31.952 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 08:36:31.953 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 08:36:31.975 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 08:36:32.618 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 08:36:32.628 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 08:36:32.629 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 08:36:32.629 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 08:36:32.882 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 08:36:32.882 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2028 ms
+2024-06-03 08:36:33.120 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 08:36:33.248 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 08:36:33.301 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 08:36:33.364 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 08:36:33.556 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 08:36:33.702 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 08:36:33.897 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 08:36:33.912 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 08:36:34.193 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 08:36:36.618 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 08:36:36.668 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 08:36:39.656 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 08:36:40.491 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 08:36:40.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 08:36:40.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 08:36:40.645 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 08:36:40.688 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#291028d7:0/SimpleConnection@4d24ab25 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60416]
+2024-06-03 08:36:40.772 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 10.418 seconds (JVM running for 11.953)
+2024-06-03 08:36:42.963 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 08:36:42.964 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 08:36:42.965 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 08:37:31.660 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 08:37:31.660 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 08:37:32.194 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 08:37:32.194 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 08:37:32.759 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 08:37:32.759 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 08:37:32.791 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 08:37:32.794 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 08:37:32.796 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 08:54:33.116 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 22612 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 08:54:33.120 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 08:54:34.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 08:54:34.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 08:54:34.191 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 08:54:34.203 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 08:54:34.205 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 08:54:34.225 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 08:54:34.839 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 08:54:34.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 08:54:34.849 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 08:54:34.849 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 08:54:35.073 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 08:54:35.073 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1914 ms
+2024-06-03 08:54:35.296 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 08:54:35.402 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 08:54:35.450 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 08:54:35.501 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 08:54:35.663 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 08:54:35.791 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 08:54:35.961 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 08:54:35.973 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 08:54:36.199 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 08:54:38.088 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 08:54:38.117 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 08:54:40.488 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 08:54:41.080 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 08:54:41.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 08:54:41.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 08:54:41.207 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 08:54:41.241 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#5dfec221:0/SimpleConnection@3eb641a8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60848]
+2024-06-03 08:54:41.321 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.614 seconds (JVM running for 10.006)
+2024-06-03 08:54:42.240 [RMI TCP Connection(2)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 08:54:42.240 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 08:54:42.242 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2024-06-03 08:55:05.720 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver:208 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-06-03 08:55:54.557 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 08:55:55.435 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 08:55:55.994 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 08:55:56.051 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 08:55:56.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 08:55:56.057 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 09:06:00.147 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 9288 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 09:06:00.151 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 09:06:01.217 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:06:01.218 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 09:06:01.243 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 09:06:01.255 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:06:01.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 09:06:01.278 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 09:06:01.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 09:06:01.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:06:01.883 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 09:06:01.883 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 09:06:02.110 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 09:06:02.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1921 ms
+2024-06-03 09:06:02.344 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 09:06:02.453 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 09:06:02.504 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 09:06:02.559 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 09:06:02.726 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 09:06:02.903 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 09:06:03.133 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 09:06:03.147 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:06:03.371 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 09:06:05.360 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:06:05.389 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:06:07.834 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 09:06:08.465 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 09:06:08.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:06:08.584 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 09:06:08.587 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 09:06:08.620 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#497fd334:0/SimpleConnection@567baa55 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61189]
+2024-06-03 09:06:08.684 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.965 seconds (JVM running for 10.975)
+2024-06-03 09:06:09.373 [RMI TCP Connection(1)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 09:06:09.373 [RMI TCP Connection(1)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 09:06:09.374 [RMI TCP Connection(1)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 09:06:26.974 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 09:06:27.846 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 09:06:28.404 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 09:06:28.436 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:06:28.438 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 09:06:28.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 09:07:59.203 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 16400 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 09:07:59.207 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 09:08:00.187 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:08:00.188 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 09:08:00.214 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-06-03 09:08:00.226 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:08:00.227 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 09:08:00.247 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 09:08:00.846 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 09:08:00.855 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:08:00.856 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 09:08:00.856 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 09:08:01.080 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 09:08:01.080 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1834 ms
+2024-06-03 09:08:01.308 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 09:08:01.419 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 09:08:01.471 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 09:08:01.524 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 09:08:01.685 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 09:08:01.813 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 09:08:01.985 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 09:08:01.999 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:08:02.217 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 09:08:04.075 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:08:04.106 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:08:06.462 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 09:08:07.021 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 09:08:07.120 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:08:07.132 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 09:08:07.134 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 09:08:07.165 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#7c79f2cf:0/SimpleConnection@690e7b89 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61327]
+2024-06-03 09:08:07.202 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:08:08.207 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:08:10.214 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:08:14.221 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:08:19.234 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:08:19.235 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:1866 - Broker not available; cannot force queue declarations during start: java.io.IOException
+2024-06-03 09:08:19.260 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 20.459 seconds (JVM running for 21.894)
+2024-06-03 09:08:19.842 [RMI TCP Connection(2)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 09:08:19.842 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 09:08:19.844 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 09:08:44.541 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 09:08:45.464 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 09:08:46.069 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 09:08:46.103 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:08:46.105 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 09:08:46.108 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 09:09:11.535 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 13112 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 09:09:11.539 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 09:09:12.501 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:09:12.501 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 09:09:12.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 09:09:12.540 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:09:12.541 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 09:09:12.561 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 09:09:13.158 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 09:09:13.167 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:09:13.168 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 09:09:13.168 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 09:09:13.395 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 09:09:13.395 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1819 ms
+2024-06-03 09:09:13.627 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 09:09:13.733 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 09:09:13.781 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 09:09:13.832 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 09:09:13.990 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 09:09:14.117 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 09:09:14.286 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 09:09:14.299 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:09:14.519 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 09:09:16.370 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:09:16.399 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:09:18.837 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 09:09:19.441 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 09:09:19.550 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:09:19.560 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 09:09:19.563 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 09:09:19.595 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#677c2820:0/SimpleConnection@643a73fa [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61492]
+2024-06-03 09:09:19.636 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:09:20.650 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:09:22.654 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:09:26.666 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:09:31.674 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '60000' but current is '30000', class-id=50, method-id=10)
+2024-06-03 09:09:31.675 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:1866 - Broker not available; cannot force queue declarations during start: java.io.IOException
+2024-06-03 09:09:31.702 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 20.562 seconds (JVM running for 21.982)
+2024-06-03 09:09:33.278 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 09:09:33.278 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 09:09:33.279 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 09:09:57.949 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: this HashCode only has 32 bits; cannot create a long] with root cause
+java.lang.IllegalStateException: this HashCode only has 32 bits; cannot create a long
+	at com.google.common.hash.HashCode$IntHashCode.asLong(HashCode.java:143)
+	at cn.mx.link.service.ShortLinkService.generateHashVal(ShortLinkService.java:53)
+	at cn.mx.link.service.ShortLinkService.generateShortUrl(ShortLinkService.java:39)
+	at cn.mx.link.controller.ShortLinkController.shortLink(ShortLinkController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 09:14:41.047 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 09:14:41.367 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 09:14:41.968 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 09:14:41.999 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:14:42.002 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 09:14:42.005 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 09:14:51.584 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 3540 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 09:14:51.587 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 09:14:52.607 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:14:52.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 09:14:52.634 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 09:14:52.647 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 09:14:52.649 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 09:14:52.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 09:14:53.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 09:14:53.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:14:53.287 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 09:14:53.287 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 09:14:53.514 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 09:14:53.515 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1889 ms
+2024-06-03 09:14:53.743 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 09:14:53.846 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 09:14:53.895 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 09:14:53.948 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 09:14:54.104 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 09:14:54.233 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 09:14:54.399 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 09:14:54.413 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:14:54.626 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 09:14:56.635 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:14:56.668 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 09:14:59.086 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 09:14:59.657 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 09:14:59.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 09:14:59.772 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 09:14:59.774 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 09:14:59.808 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#da67c46:0/SimpleConnection@15ea0ca3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61708]
+2024-06-03 09:14:59.878 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.706 seconds (JVM running for 10.114)
+2024-06-03 09:15:01.409 [RMI TCP Connection(5)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 09:15:01.410 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 09:15:01.411 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 09:16:14.445 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:34 - delay queue work delete hashVal 683277938
+2024-06-03 09:17:15.225 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:34 - delay queue work delete hashVal 1597480777
+2024-06-03 09:17:49.654 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 09:17:50.576 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 09:17:51.117 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 09:17:51.147 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 09:17:51.150 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 09:17:51.153 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 10:27:38.089 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 11356 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 10:27:38.094 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 10:27:39.051 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:27:39.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 10:27:39.078 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 10:27:39.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:27:39.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 10:27:39.111 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 10:27:39.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 10:27:39.725 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:27:39.726 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 10:27:39.726 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 10:27:39.949 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 10:27:39.949 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1818 ms
+2024-06-03 10:27:40.173 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 10:27:40.278 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 10:27:40.327 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 10:27:40.378 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 10:27:40.538 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 10:27:40.665 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 10:27:40.837 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 10:27:40.849 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:27:41.068 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 10:27:42.955 [redisson-netty-2-7] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:27:42.986 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:27:45.432 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 10:27:45.994 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 10:27:46.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:27:46.111 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 10:27:46.114 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 10:27:46.152 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#8dcacf1:0/SimpleConnection@52bcfd10 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49855]
+2024-06-03 10:27:46.197 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '1800000' but current is '60000', class-id=50, method-id=10)
+2024-06-03 10:27:47.212 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '1800000' but current is '60000', class-id=50, method-id=10)
+2024-06-03 10:27:49.232 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '1800000' but current is '60000', class-id=50, method-id=10)
+2024-06-03 10:27:53.235 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '1800000' but current is '60000', class-id=50, method-id=10)
+2024-06-03 10:27:58.241 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory:748 - Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'x-message-ttl' for queue 'delayQueue' in vhost '/': received '1800000' but current is '60000', class-id=50, method-id=10)
+2024-06-03 10:27:58.242 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:1866 - Broker not available; cannot force queue declarations during start: java.io.IOException
+2024-06-03 10:27:58.273 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 20.587 seconds (JVM running for 21.971)
+2024-06-03 10:27:59.339 [RMI TCP Connection(2)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 10:27:59.339 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 10:27:59.342 [RMI TCP Connection(2)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2024-06-03 10:28:19.292 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 10:28:19.486 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 10:28:20.075 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 10:28:20.108 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:28:20.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 10:28:20.113 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 10:28:23.679 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 13516 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 10:28:23.683 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 10:28:24.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:28:24.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 10:28:24.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 10:28:24.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:28:24.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 10:28:24.705 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 10:28:25.319 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 10:28:25.327 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:28:25.328 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 10:28:25.328 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 10:28:25.556 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 10:28:25.556 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1835 ms
+2024-06-03 10:28:25.849 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 10:28:25.969 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 10:28:26.023 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 10:28:26.091 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 10:28:26.250 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 10:28:26.387 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 10:28:26.558 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 10:28:26.571 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:28:26.791 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 10:28:28.722 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:28:28.753 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:28:31.128 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 10:28:31.706 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 10:28:31.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:28:31.820 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 10:28:31.823 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 10:28:31.853 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#1c3b221f:0/SimpleConnection@755a90a6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50080]
+2024-06-03 10:28:31.924 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.66 seconds (JVM running for 10.103)
+2024-06-03 10:28:33.292 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 10:28:33.293 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 10:28:33.294 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 10:30:30.343 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: WRONGTYPE Operation against a key holding the wrong kind of value. channel: [id: 0xfdbfee4c, L:/127.0.0.1:49999 - R:localhost/127.0.0.1:6379] command: (GET), promise: java.util.concurrent.CompletableFuture@63820942[Not completed, 1 dependents], params: [[104, 101, 108, 108, 111, 97]]; nested exception is org.redisson.client.RedisException: WRONGTYPE Operation against a key holding the wrong kind of value. channel: [id: 0xfdbfee4c, L:/127.0.0.1:49999 - R:localhost/127.0.0.1:6379] command: (GET), promise: java.util.concurrent.CompletableFuture@63820942[Not completed, 1 dependents], params: [[104, 101, 108, 108, 111, 97]]] with root cause
+org.redisson.client.RedisException: WRONGTYPE Operation against a key holding the wrong kind of value. channel: [id: 0xfdbfee4c, L:/127.0.0.1:49999 - R:localhost/127.0.0.1:6379] command: (GET), promise: java.util.concurrent.CompletableFuture@63820942[Not completed, 1 dependents], params: [[104, 101, 108, 108, 111, 97]]
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:370)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:198)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:137)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:113)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 10:32:07.646 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 62074cff-8f45-4115-834a-b7961b3037a6 thread-id: 81] with root cause
+java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 62074cff-8f45-4115-834a-b7961b3037a6 thread-id: 81
+	at org.redisson.RedissonBaseLock.lambda$unlockAsync$2(RedissonBaseLock.java:323)
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:822)
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:797)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.command.CommandBatchService.lambda$executeAsync$7(CommandBatchService.java:322)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.command.RedisCommonBatchExecutor.handleResult(RedisCommonBatchExecutor.java:162)
+	at org.redisson.command.RedisExecutor.checkAttemptPromise(RedisExecutor.java:478)
+	at org.redisson.command.RedisExecutor.lambda$execute$3(RedisExecutor.java:172)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.client.handler.CommandDecoder.decodeCommandBatch(CommandDecoder.java:318)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:210)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:137)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:113)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 10:33:10.153 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s511ms574µs700ns).
+2024-06-03 10:33:10.159 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 62074cff-8f45-4115-834a-b7961b3037a6 thread-id: 84] with root cause
+java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 62074cff-8f45-4115-834a-b7961b3037a6 thread-id: 84
+	at org.redisson.RedissonBaseLock.lambda$unlockAsync$2(RedissonBaseLock.java:323)
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:822)
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:797)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.command.CommandBatchService.lambda$executeAsync$7(CommandBatchService.java:322)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.command.RedisCommonBatchExecutor.handleResult(RedisCommonBatchExecutor.java:162)
+	at org.redisson.command.RedisExecutor.checkAttemptPromise(RedisExecutor.java:478)
+	at org.redisson.command.RedisExecutor.lambda$execute$3(RedisExecutor.java:172)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:760)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:736)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1962)
+	at org.redisson.client.handler.CommandDecoder.decodeCommandBatch(CommandDecoder.java:318)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:210)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:137)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:113)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 10:33:10.187 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 10:33:11.162 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 10:33:11.719 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 10:33:11.750 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:33:11.752 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 10:33:11.755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 10:35:04.894 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 9536 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 10:35:04.897 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 10:35:05.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:35:05.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 10:35:05.914 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 10:35:05.925 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 10:35:05.927 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 10:35:05.947 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-03 10:35:06.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 10:35:06.568 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:35:06.568 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 10:35:06.568 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 10:35:06.793 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 10:35:06.793 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1858 ms
+2024-06-03 10:35:07.019 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 10:35:07.129 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 10:35:07.180 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 10:35:07.233 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 10:35:07.392 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 10:35:07.519 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 10:35:07.688 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 10:35:07.700 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:35:07.917 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 10:35:09.768 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:35:09.796 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 10:35:12.190 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 10:35:12.777 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 10:35:12.881 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 10:35:12.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 10:35:12.893 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 10:35:12.925 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#2c92f094:0/SimpleConnection@6464f017 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50305]
+2024-06-03 10:35:12.990 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.498 seconds (JVM running for 9.9)
+2024-06-03 10:35:14.407 [RMI TCP Connection(4)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 10:35:14.408 [RMI TCP Connection(4)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 10:35:14.409 [RMI TCP Connection(4)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 10:38:15.477 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 10:38:15.720 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 10:38:16.402 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 10:38:16.474 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 10:38:16.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 10:38:16.482 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 12:28:54.042 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 1256 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:28:54.051 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:28:56.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:28:56.093 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:28:56.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:28:56.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:28:56.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:28:56.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:28:57.300 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:28:57.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:28:57.314 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:28:57.315 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:28:57.713 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:28:57.713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 3612 ms
+2024-06-03 12:28:57.948 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:28:58.064 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:28:58.120 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:28:58.181 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:28:58.357 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:28:58.498 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:28:58.751 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:28:58.766 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:28:59.058 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:29:01.408 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:29:01.441 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:29:04.160 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:29:04.798 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:29:04.895 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:29:04.906 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:29:04.909 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:29:04.945 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#2e3cd732:0/SimpleConnection@6d0a14c2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49233]
+2024-06-03 12:29:05.012 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 11.669 seconds (JVM running for 14.518)
+2024-06-03 12:29:05.081 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:30 - delay queue work delete hashVal 683277938
+2024-06-03 12:29:05.084 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:30 - delay queue work delete hashVal -1604107388
+2024-06-03 12:29:06.415 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:29:06.416 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:29:06.418 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2024-06-03 12:29:35.135 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver:208 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-06-03 12:29:40.246 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 访问频繁，请重新尝试] with root cause
+java.lang.RuntimeException: 访问频繁，请重新尝试
+	at cn.mx.link.service.ShortLinkService.generateHashVal(ShortLinkService.java:67)
+	at cn.mx.link.service.ShortLinkService.generateShortUrl(ShortLinkService.java:45)
+	at cn.mx.link.controller.ShortLinkController.shortLink(ShortLinkController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 12:29:42.001 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 访问频繁，请重新尝试] with root cause
+java.lang.RuntimeException: 访问频繁，请重新尝试
+	at cn.mx.link.service.ShortLinkService.generateHashVal(ShortLinkService.java:67)
+	at cn.mx.link.service.ShortLinkService.generateShortUrl(ShortLinkService.java:45)
+	at cn.mx.link.controller.ShortLinkController.shortLink(ShortLinkController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 12:29:50.098 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:29:50.445 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:29:51.039 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 12:29:51.076 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:29:51.079 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 12:29:51.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 12:29:55.326 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 106764 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:29:55.330 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:29:56.710 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:29:56.710 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:29:56.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:29:56.751 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:29:56.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:29:56.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:29:57.602 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:29:57.612 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:29:57.613 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:29:57.613 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:29:57.866 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:29:57.866 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2496 ms
+2024-06-03 12:29:58.142 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:29:58.269 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:29:58.323 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:29:58.380 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:29:58.554 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:29:58.688 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:29:58.867 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:29:58.881 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:29:59.111 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:30:01.301 [redisson-netty-2-8] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:30:01.368 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:30:04.291 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:30:05.013 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:30:05.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:30:05.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:30:05.143 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:30:05.186 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#6f2bf657:0/SimpleConnection@67683210 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49371]
+2024-06-03 12:30:05.269 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 10.422 seconds (JVM running for 12.268)
+2024-06-03 12:30:05.817 [RMI TCP Connection(5)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:30:05.818 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:30:05.820 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2024-06-03 12:30:13.178 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:30:13.310 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:30:13.997 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 12:30:14.029 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:30:14.032 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 12:30:14.035 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 12:30:25.626 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 6796 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:30:25.631 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:30:26.673 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:30:26.673 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:30:26.699 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:30:26.712 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:30:26.713 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:30:26.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:30:27.410 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:30:27.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:30:27.421 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:30:27.421 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:30:27.665 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:30:27.665 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1983 ms
+2024-06-03 12:30:27.906 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:30:28.020 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:30:28.072 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:30:28.137 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:30:28.300 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:30:28.440 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:30:28.645 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:30:28.661 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:30:28.890 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:30:30.880 [redisson-netty-2-8] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:30:30.911 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:30:33.512 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:30:34.145 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:30:34.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:30:34.259 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:30:34.261 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:30:34.292 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#1afa048a:0/SimpleConnection@16a15261 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49492]
+2024-06-03 12:30:34.368 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 9.194 seconds (JVM running for 10.699)
+2024-06-03 12:30:35.435 [RMI TCP Connection(5)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:30:35.435 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:30:35.436 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 12:31:11.019 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:31:11.477 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:31:12.022 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 12:31:12.078 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:31:12.081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 12:31:12.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 12:31:15.957 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 92380 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:31:15.963 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:31:17.069 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:31:17.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:31:17.096 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:31:17.108 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:31:17.110 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:31:17.131 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:31:17.753 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:31:17.762 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:31:17.763 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:31:17.763 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:31:17.993 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:31:17.994 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1961 ms
+2024-06-03 12:31:18.229 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:31:18.339 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:31:18.389 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:31:18.443 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:31:18.606 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:31:18.743 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:31:18.936 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:31:18.950 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:31:19.173 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:31:21.200 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:31:21.233 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:31:23.840 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:31:24.489 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:31:24.590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:31:24.601 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:31:24.604 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:31:24.636 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#25d23478:0/SimpleConnection@39acf187 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49611]
+2024-06-03 12:31:24.701 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 9.243 seconds (JVM running for 10.767)
+2024-06-03 12:31:25.374 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:31:25.374 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:31:25.376 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 12:33:25.675 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:33:26.446 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:33:34.496 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 42380 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:33:34.500 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:33:35.514 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:33:35.514 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:33:35.541 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:33:35.553 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:33:35.554 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:33:35.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:33:36.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:33:36.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:33:36.219 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:33:36.219 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:33:36.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:33:36.469 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1931 ms
+2024-06-03 12:33:36.717 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:33:36.827 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:33:36.878 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:33:36.931 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:33:37.108 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:33:37.241 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:33:37.419 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:33:37.432 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:33:37.656 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:33:39.574 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:33:39.607 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:33:41.972 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:33:42.541 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:33:42.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:33:42.657 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:33:42.660 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:33:42.693 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#259c6ab8:0/SimpleConnection@7095b688 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49767]
+2024-06-03 12:33:42.759 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 8.672 seconds (JVM running for 10.114)
+2024-06-03 12:33:43.991 [RMI TCP Connection(5)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:33:43.991 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:33:43.993 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 2 ms
+2024-06-03 12:38:45.460 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s264ms999µs500ns).
+2024-06-03 12:38:51.715 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 6597aca8-eaa5-4b68-9398-e6a28737aa03 thread-id: 82] with root cause
+java.lang.IllegalMonitorStateException: attempt to unlock lock, not locked by current thread by node id: 6597aca8-eaa5-4b68-9398-e6a28737aa03 thread-id: 82
+	at org.redisson.RedissonBaseLock.lambda$unlockAsync$2(RedissonBaseLock.java:323)
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:822)
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:834)
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2155)
+	at org.redisson.misc.CompletableFutureWrapper.handle(CompletableFutureWrapper.java:208)
+	at org.redisson.RedissonBaseLock.unlockAsync(RedissonBaseLock.java:316)
+	at org.redisson.RedissonLock.unlock(RedissonLock.java:303)
+	at cn.mx.link.service.ShortLinkService.generateShortUrl(ShortLinkService.java:53)
+	at cn.mx.link.controller.ShortLinkController.shortLink(ShortLinkController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-06-03 12:39:15.475 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s221ms65µs399ns).
+2024-06-03 12:39:46.051 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:39:47.022 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:39:49.960 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 12:39:50.015 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:39:50.018 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 12:39:50.022 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 12:41:00.789 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 38420 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 12:41:00.793 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 12:41:02.101 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:41:02.102 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 12:41:02.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2024-06-03 12:41:02.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 12:41:02.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 12:41:02.199 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-06-03 12:41:03.116 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 12:41:03.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:41:03.131 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 12:41:03.131 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 12:41:03.382 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 12:41:03.383 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2546 ms
+2024-06-03 12:41:03.652 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 12:41:03.769 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 12:41:03.826 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 12:41:03.887 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 12:41:04.063 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 12:41:04.205 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 12:41:04.388 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 12:41:04.403 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:41:04.645 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 12:41:06.696 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:41:06.733 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 12:41:09.373 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 12:41:10.022 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 12:41:10.132 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 12:41:10.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 12:41:10.149 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 12:41:10.183 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#77988c45:0/SimpleConnection@769a9b7a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49958]
+2024-06-03 12:41:10.255 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 9.884 seconds (JVM running for 11.456)
+2024-06-03 12:41:11.731 [RMI TCP Connection(5)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 12:41:11.731 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 12:41:11.732 [RMI TCP Connection(5)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 12:41:28.886 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 12:41:29.442 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 12:41:30.027 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 12:41:30.078 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 12:41:30.080 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 12:41:30.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-06-03 14:06:06.740 [main] INFO  cn.mx.link.ShortLinkApplication:55 - Starting ShortLinkApplication using Java 1.8.0_201 on LAPTOP-BU1SCTTQ with PID 98032 (D:\ideaProject\mx-short-link\target\classes started by hp in D:\ideaProject\mx-short-link)
+2024-06-03 14:06:06.744 [main] INFO  cn.mx.link.ShortLinkApplication:645 - No active profile set, falling back to 1 default profile: "default"
+2024-06-03 14:06:08.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 14:06:08.123 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 14:06:08.154 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-06-03 14:06:08.172 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-03 14:06:08.174 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-03 14:06:08.198 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-03 14:06:09.035 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2024-06-03 14:06:09.046 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:06:09.047 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2024-06-03 14:06:09.047 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-06-03 14:06:09.310 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-03 14:06:09.311 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2500 ms
+2024-06-03 14:06:09.574 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2024-06-03 14:06:09.780 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-06-03 14:06:09.845 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 14:06:09.932 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-06-03 14:06:10.150 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-03 14:06:10.311 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-06-03 14:06:10.529 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-03 14:06:10.546 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 14:06:10.838 [main] INFO  org.redisson.Version:41 - Redisson 3.17.4
+2024-06-03 14:06:12.757 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool:158 - 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 14:06:12.818 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool:158 - 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-03 14:06:15.248 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 14:06:15.850 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03 14:06:15.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 14:06:15.967 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-03 14:06:15.969 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:638 - Attempting to connect to: [127.0.0.1:5672]
+2024-06-03 14:06:16.007 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#29fc83c5:0/SimpleConnection@6d40a2b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60570]
+2024-06-03 14:06:16.084 [main] INFO  cn.mx.link.ShortLinkApplication:61 - Started ShortLinkApplication in 9.841 seconds (JVM running for 11.937)
+2024-06-03 14:06:16.142 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:36 - delay queue work delete hashVal -1604107388
+2024-06-03 14:06:16.147 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:36 - delay queue work delete hashVal 2690859908
+2024-06-03 14:06:17.184 [RMI TCP Connection(3)-192.168.98.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 14:06:17.184 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-06-03 14:06:17.185 [RMI TCP Connection(3)-192.168.98.1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 1 ms
+2024-06-03 14:06:42.846 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  cn.mx.link.mq.consumer.ShortLinkConsumer:42 - consume short link : helloshortlink short url : http://localhost:8080/short/2w6ZaG
+2024-06-03 14:07:08.719 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 14:07:08.720 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:648 - Waiting for workers to finish.
+2024-06-03 14:07:08.990 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 14:07:09.007 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:652 - Successfully waited for workers to finish.
+2024-06-03 14:07:09.545 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 14:07:09.545 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer:642 - Shutdown ignored - container is already stopped
+2024-06-03 14:07:09.579 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 14:07:09.582 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-06-03 14:07:09.585 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

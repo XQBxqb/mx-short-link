@@ -5,32 +5,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b25308-41c7-4cd5-bd10-224bb0ec8eb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/consts/MQConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/consts/RedisConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/controller/ShortLinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/dao/ShortUrlMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/dataobjj/ShortUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/dto/MQDataEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/mq/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/mq/consumer/ShortLinkConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/mq/publisher/ShortLinkPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/service/ShortLinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/utils/BASE62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/vo/ResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/vo/ShortLinkRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/mx/link/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/ShortLinkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedissonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mx/link/config/RedissonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_reposity" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.9.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2hJ1sHpeDyiI0Zs8889WAjO2Uyf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "aspect.path.notification.shown": "true",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/mx-short-link/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bcffc2c5dde9c303fca1f8dff2650e3e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\mx-short-link\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.mx.link.utils" />
+      <recent name="cn.mx.link.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShortLinkApplication">
+    <configuration name="BASE62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.mx.link.utils.BASE62" />
+      <module name="mx-short-link" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mx.link.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortLinkService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.mx.link.service.ShortLinkService" />
+      <module name="mx-short-link" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mx.link.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.mx.link.utils.SnowFlake" />
+      <module name="mx-short-link" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mx.link.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortLinkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mx-short-link" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.mx.link.ShortLinkApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mx.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShortLinkApplication" />
+        <item itemvalue="Application.ShortLinkService" />
+        <item itemvalue="Application.BASE62" />
+        <item itemvalue="Application.SnowFlake" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,11 +171,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717297571404</updated>
-      <workItem from="1717297572635" duration="2000" />
+      <workItem from="1717297572635" duration="1437000" />
+      <workItem from="1717299258967" duration="4631000" />
+      <workItem from="1717306460506" duration="9442000" />
+      <workItem from="1717318955731" duration="3148000" />
+      <workItem from="1717336083084" duration="11000" />
+      <workItem from="1717336144410" duration="599000" />
+      <workItem from="1717372111273" duration="10142000" />
+      <workItem from="1717388918107" duration="837000" />
+      <workItem from="1717393323057" duration="2279000" />
+      <workItem from="1717396612419" duration="1089000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

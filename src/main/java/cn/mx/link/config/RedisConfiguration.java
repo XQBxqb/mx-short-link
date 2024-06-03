@@ -1,4 +1,4 @@
-package cn.high.mx.framework.redis.config;
+package cn.mx.link.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.Redisson;
@@ -14,8 +14,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 
 @Slf4j
 @Configuration
-@EnableConfigurationProperties(RedisProperties.class)
-public class RedisAutoConfiguration {
+public class RedisConfiguration {
     /**
      * 创建 RedisTemplate Bean，使用 JSON 序列化方式
      */
@@ -23,12 +22,8 @@ public class RedisAutoConfiguration {
     @Primary
     @ConditionalOnBean(RedisConnectionFactory.class)
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
-        log.info("init "+this.getClass().getSimpleName());
-        // 创建 RedisTemplate 对象
         RedisTemplate<String, Object> template = new RedisTemplate<>();
-        // 设置 RedisConnection 工厂。 它就是实现多种 Java Redis 客户端接入的秘密工厂。感兴趣的胖友，可以自己去撸下。
         template.setConnectionFactory(factory);
-        // 使用 String 序列化方式，序列化 KEY 。
         template.setKeySerializer(RedisSerializer.string());
         template.setValueSerializer(RedisSerializer.string());
         template.setHashKeySerializer(RedisSerializer.string());
